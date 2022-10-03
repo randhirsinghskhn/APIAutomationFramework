@@ -5,11 +5,13 @@ import java.util.Properties;
 
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC5_DeleteRequest {
 
+	@Test
 	public void TC5_DeleteRecord() throws IOException
 	{
 		Properties pr= PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

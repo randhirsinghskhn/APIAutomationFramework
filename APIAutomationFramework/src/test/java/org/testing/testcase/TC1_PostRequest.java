@@ -9,12 +9,14 @@ import org.testing.utilities.JsonHandle;
 import org.testing.utilities.JsonParsingUsingOrgJson;
 import org.testing.utilities.PropertiesHandle;
 import org.testing.utilities.VariableReplacement;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC1_PostRequest {
 
 	public static String returnIdValue;
+	@Test
 	public  void TC1_PostRequestMethod() throws IOException {
 		
 		Properties pr=PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

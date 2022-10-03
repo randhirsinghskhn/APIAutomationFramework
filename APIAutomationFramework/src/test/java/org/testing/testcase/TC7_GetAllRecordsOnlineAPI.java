@@ -7,12 +7,14 @@ import org.json.JSONArray;
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.JsonParsingUsingOrgJson;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC7_GetAllRecordsOnlineAPI {
 
 	public static String idValue;
+	@Test
 	public void TC7_AllRecords() throws IOException
 	{
 		Properties pr=PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

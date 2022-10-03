@@ -6,11 +6,13 @@ import java.util.Properties;
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.JsonHandle;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC9_UpdateRecordOnlineAPI {
 
+	@Test
 	public void TC9_Updateparticular() throws IOException
 	{
 		Properties pr=PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

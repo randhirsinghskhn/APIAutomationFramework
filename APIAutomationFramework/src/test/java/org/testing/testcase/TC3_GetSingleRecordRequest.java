@@ -5,11 +5,13 @@ import java.util.Properties;
 
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC3_GetSingleRecordRequest {
 
+	@Test
 	public void TC3_SingleRecord() throws IOException
 	{
 		Properties pr= PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

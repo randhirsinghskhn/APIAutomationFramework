@@ -7,11 +7,13 @@ import org.json.JSONObject;
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.JsonHandle;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC6_PostRequestOnlineAPI {
 public int idValue;
+	@Test
 	public void TC6_PostReqOnlineAPI() throws IOException
 	{
 		Properties pr = PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");

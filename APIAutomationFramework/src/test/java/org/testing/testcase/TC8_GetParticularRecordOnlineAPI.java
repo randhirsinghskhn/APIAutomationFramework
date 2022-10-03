@@ -5,11 +5,13 @@ import java.util.Properties;
 
 import org.testing.teststeps.HTTPMethods;
 import org.testing.utilities.PropertiesHandle;
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
 public class TC8_GetParticularRecordOnlineAPI {
 
+	@Test
 	public void TC8_GetParticularRecdOnlnAPI() throws IOException
 	{
 		Properties pr=PropertiesHandle.readPropertyFile("../APIAutomationFramework/URI.properties");
