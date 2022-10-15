@@ -1,5 +1,6 @@
 package org.testing.teststeps;
 
+import java.util.HashMap;
 import java.util.Properties;
 
 import org.testing.utilities.JsonHandle;
@@ -22,6 +23,8 @@ public class HTTPMethods {
 	{
 		Response rs=
 		given()
+		//.auth()
+		//.basic("Username", "password")  //authentication using basic authentication with username and password
 		.contentType(ContentType.JSON)
 		.body(bodydata)
 		.when()
@@ -32,12 +35,17 @@ public class HTTPMethods {
 	}
 	public Response GetAllMethod(String Urikey)
 	{
+		HashMap<String, String> headers=new HashMap<String, String>();
+		headers.put("key", "Value");
 		Response res=
 		given()
 		.contentType(ContentType.JSON)
+		//.header(headers);   //to pass multiple headers using hasmap
+		.header("Content-Type", "application/json") //to send the header value in request
 		.when()
 		.get(pr.getProperty(Urikey));
-		
+
+		System.out.println(res.getHeader("Content-Type")); // to get the value of header from the response
 		return res;
 	}
 	

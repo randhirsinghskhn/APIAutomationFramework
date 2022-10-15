@@ -8,6 +8,11 @@
           <include name="TC7_AllRecords"/>
         </methods>
       </class> <!-- org.testing.testcase.TC7_GetAllRecordsOnlineAPI -->
+      <class name="org.testing.testcase.TC1_PostRequest">
+        <methods>
+          <include name="TC1_PostRequestMethod"/>
+        </methods>
+      </class> <!-- org.testing.testcase.TC1_PostRequest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

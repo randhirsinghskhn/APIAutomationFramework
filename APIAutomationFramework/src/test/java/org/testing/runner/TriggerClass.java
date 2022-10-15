@@ -17,14 +17,14 @@ public class TriggerClass {
 
 	public static void main(String[] args) throws IOException {
 	
-//		TC1_PostRequest t1=new TC1_PostRequest();
-//		t1.TC1_PostRequestMethod();
+		TC1_PostRequest t1=new TC1_PostRequest();
+		t1.TC1_PostRequestMethod();
 //		
-//		TC2_GetAllRecordsRequest t2=new TC2_GetAllRecordsRequest();
-//		t2.TC2_GetAllRecordsMethod();
+		TC2_GetAllRecordsRequest t2=new TC2_GetAllRecordsRequest();
+		t2.TC2_GetAllRecordsMethod();
 //		
-//		TC3_GetSingleRecordRequest t3=new TC3_GetSingleRecordRequest();
-//		t3.TC3_SingleRecord();
+		TC3_GetSingleRecordRequest t3=new TC3_GetSingleRecordRequest();
+		t3.TC3_SingleRecord();
 //		
 //		TC4_PutRequest t4=new TC4_PutRequest();
 //		t4.TC4_UpdatePutRequest();
@@ -35,8 +35,8 @@ public class TriggerClass {
 //		TC6_PostRequestOnlineAPI t6=new TC6_PostRequestOnlineAPI();
 //		t6.TC6_PostReqOnlineAPI();
 		
-		TC7_GetAllRecordsOnlineAPI t7=new TC7_GetAllRecordsOnlineAPI();
-		t7.TC7_AllRecords();
+//		TC7_GetAllRecordsOnlineAPI t7=new TC7_GetAllRecordsOnlineAPI();
+//		t7.TC7_AllRecords();
 		
 //		TC8_GetParticularRecordOnlineAPI t8=new TC8_GetParticularRecordOnlineAPI();
 //		t8.TC8_GetParticularRecdOnlnAPI();
@@ -44,7 +44,7 @@ public class TriggerClass {
 //		TC9_UpdateRecordOnlineAPI t9=new TC9_UpdateRecordOnlineAPI();
 //		t9.TC9_Updateparticular();
 		
-		TC10_DeleteRequestOnlineAPI t10= new TC10_DeleteRequestOnlineAPI();
-		t10.TC10_DeleteOnlineAPI();
+//		TC10_DeleteRequestOnlineAPI t10= new TC10_DeleteRequestOnlineAPI();
+//		t10.TC10_DeleteOnlineAPI();
 	}
 }

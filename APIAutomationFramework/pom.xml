@@ -38,11 +38,7 @@
  
  <!-- Include the following dependencies -->
  <dependencies>
- <dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
+ 
   <dependency>
    <groupId>org.seleniumhq.selenium</groupId>
    <artifactId>selenium-java</artifactId>
@@ -53,6 +49,27 @@
    <artifactId>testng</artifactId>
    <version>6.8.8</version>
   </dependency>
+  
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    
+<dependency>
+<groupId>com.relevantcodes</groupId>
+<artifactId>extentreports</artifactId>
+<version>2.41.2</version>
+</dependency>
+
+<dependency>
+<groupId>xml-apis</groupId>
+<artifactId>xml-apis</artifactId>
+<version>1.4.01</version>
+</dependency>
+  
+  
 
  <dependency>
                  <groupId>org.apache.poi</groupId>
@@ -88,10 +105,14 @@
   
   
   
-  
-  
-  
-  
+ 
+<dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>2.3.30</version>
+</dependency>
+
+
    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
@@ -99,11 +120,7 @@
     <version>6.10</version>
     <scope>test</scope>
 </dependency>
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
+
 
 
 <!-- https://mvnrepository.com/artifact/org.w3c/dom -->
